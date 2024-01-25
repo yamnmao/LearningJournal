@@ -43,9 +43,8 @@ class DynamicArray {
     }
     //void resize() will double the capacity of the array.
     private void resize() {
-        capcity *= 2;
+        capacity *= 2;
         int[] newArr = new int[capacity];
-        for(int i = 0; i< length; i++)
 
     }
     //int getSize() will return the number of elements in the array.
