@@ -1,4 +1,5 @@
-package code;
+package String;
+
 import java.util.Scanner;
 import java.util.Stack;
 
