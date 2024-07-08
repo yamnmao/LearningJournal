@@ -26,5 +26,16 @@ public class MergeKSortedLists23 {
             if (head != null)
                 pq.add(head);
         }
+        while(!pq.isEmpty()){
+            //获取最小节点
+            ListNode node = pq.poll();
+            p.next = node;
+            if(node.next!=null){
+                pq.add(node.next);
+            }
+            //move p pointer
+            p=p.next;
+        }
+        return dummy.next;
     }
 }
