@@ -8,7 +8,7 @@ public class PartitionList86 {
         ListNode next;
         ListNode() {}
         ListNode(int val) { this.val = val; }
-        ListNode(int val, MergeTwoSortedLists21.ListNode next) { this.val = val; this.next = next; }
+        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
     public ListNode partition(ListNode head, int x) {
         //store dummy head for the list less than x
